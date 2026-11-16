@@ -262,7 +262,6 @@ const Items = ({ categories, subcategories, brands, tags }) => {
             description: descriptionfinal,
             final_price: final_price,
             tags: $(tagsRef.current).val() || [],
-            final_price: final_price,
             discount_percent: discount_percent,
             price: priceRef.current.value,
             discount: discountRef.current.value,

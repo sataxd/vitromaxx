@@ -1,5 +1,5 @@
 import { Link } from '@inertiajs/react'
-import JSEncrypt from 'jsencrypt'
+import JSEncrypt from './Utils/JSEncryptProxy'
 import React, { useEffect, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import ReCAPTCHA from 'react-google-recaptcha'

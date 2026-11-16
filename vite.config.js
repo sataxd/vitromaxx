@@ -34,11 +34,7 @@ export default defineConfig({
     },
     build: {
         rollupOptions: {
-            external: ['jsencrypt'],
             output: {
-                globals: {
-                    jsencrypt: 'JSEncrypt',
-                },
                 assetFileNames: (assetInfo) => {
                     if (assetInfo.name == 'app-C6GHMxSp.css')
                         return 'app.css';

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
-import JSEncrypt from "jsencrypt";
+import JSEncrypt from "./Utils/JSEncryptProxy";
 import CreateReactScript from "./Utils/CreateReactScript";
 import AuthRest from "./actions/AuthRest";
 import Swal from "sweetalert2";
