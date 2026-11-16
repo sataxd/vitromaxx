@@ -18,20 +18,39 @@ const CatalogProducts = ({
     anuncio,
     initialCategory,    
     initialSubcategory,
+    categorySelected,
+    catalogBanner,
+    catalogBannerMobile,
     showSlogan = true,
 }) => {
     
     const pageTitle = initialSubcategory || initialCategory || "Catálogo";
 
+    // Si está en una categoría y tiene banner específico, se usa ese; de lo contrario, el banner general o el default
+    const desktopBannerSrc = categorySelected?.banner_desktop
+        ? `/api/category/media/${categorySelected.banner_desktop}`
+        : (catalogBanner ? `/api/generals/media/${catalogBanner}` : "/assets/img/frascos_y_botellas.webp");
+
+    const mobileBannerSrc = categorySelected?.banner_mobile
+        ? `/api/category/media/${categorySelected.banner_mobile}`
+        : (catalogBannerMobile ? `/api/generals/media/${catalogBannerMobile}` : desktopBannerSrc);
+
     return (
         <>
             <Header />
 
-            <div className="mt-[70px] relative flex items-center justify-start px-[5%] h-[40vh]">
-                <img className="h-[40vh] absolute w-full top-0 left-0 object-cover" 
-                     src="/assets/img/frascos_y_botellas.webp"
-                />
-                <div className="h-[40vh] absolute flex flex-col items-start justify-start md:justify-center text-white mt-16 sm:mt-0 max-w-xl">
+            <div className="mt-[70px] relative flex items-center justify-start px-[5%] h-[30vh] sm:h-[40vh] overflow-hidden">
+                <picture className="absolute inset-0 w-full h-full">
+                    <source media="(max-width: 640px)" srcSet={mobileBannerSrc} />
+                    <img 
+                        className="w-full h-full object-cover" 
+                        src={desktopBannerSrc}
+                        alt={pageTitle}
+                        onError={(e) => { e.currentTarget.src = "/assets/img/frascos_y_botellas.webp"; }}
+                    />
+                </picture>
+                <div className="absolute inset-0 bg-black/20 pointer-events-none"></div>
+                <div className="relative z-10 flex flex-col items-start justify-center text-white max-w-xl">
                     <h2 className="font-sora text-white text-3xl sm:text-5xl 2xl:text-[52px] 4xl:text-6xl tracking-normal font-semibold !leading-[1.15]">
                         {pageTitle}
                     </h2>

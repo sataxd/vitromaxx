@@ -11,6 +11,7 @@ use App\Models\Post;
 use App\Models\Slider;
 use App\Models\Supply;
 use App\Models\Testimony;
+use App\Models\General;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 
@@ -28,10 +29,12 @@ class CatalogController extends BasicController
         $initialSubcategory = null;
         
         // 2. Buscamos el nombre real de la categoría si existe el slug
+        $categorySelected = null;
         if ($category_slug) {
             $category = Category::where('slug', $category_slug)->first();
             if ($category) {
                 $initialCategory = $category->name;
+                $categorySelected = $category;
             }
         }
 
@@ -80,12 +83,18 @@ class CatalogController extends BasicController
         }])
         ->get();
 
+        $catalogBanner = General::where('correlative', 'catalog_banner')->value('description');
+        $catalogBannerMobile = General::where('correlative', 'catalog_banner_mobile')->value('description');
+
         return [
             'items' => $items,
             'anuncio' => $anuncio,
             'categories' => $categories,
             'initialCategory' => $initialCategory,
             'initialSubcategory' => $initialSubcategory,
+            'categorySelected' => $categorySelected,
+            'catalogBanner' => $catalogBanner,
+            'catalogBannerMobile' => $catalogBannerMobile,
         ];
     }
 }

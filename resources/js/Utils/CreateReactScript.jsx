@@ -66,11 +66,24 @@ const CreateReactScript = (render) => {
                 );
             };
 
-            FetchParams.headers = {
-                Accept: "application/json",
-                "Content-Type": "application/json",
-                "X-Xsrf-Token": decodeURIComponent(Cookies.get("XSRF-TOKEN")),
+            // FetchParams.headers = {
+            //     Accept: "application/json",
+            //     "Content-Type": "application/json",
+            //     "X-Xsrf-Token": decodeURIComponent(Cookies.get("XSRF-TOKEN")),
+            // };
+
+            FetchParams.call = () => {
+                const xsrf = Cookies.get('XSRF-TOKEN');
+                return {
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json',
+                        'X-Requested-With': 'XMLHttpRequest', // Vital para Laravel
+                        ...(xsrf ? { 'X-Xsrf-Token': decodeURIComponent(xsrf) } : {}),
+                    },
+                };
             };
+            
             render(el, { ...properties, can, hasRole });
         },
     });

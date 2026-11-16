@@ -209,7 +209,7 @@ const Footer = () => {
 
                             <p className="font-dmsans text-white text-opacity-70 text-sm 2xl:text-base 4xl:text-lg">Redes Sociales</p>
 
-                            <div className="flex flex-row justify-end gap-4 max-w-32 mt-3 sm:mt-5">
+                            <div className="flex flex-row justify-end gap-4 max-w-44 mt-3 sm:mt-5 flex-wrap">
                                 {Instagram && (
                                     <a
                                         href={Instagram.link}
@@ -218,7 +218,7 @@ const Footer = () => {
                                     >
                                         <img
                                             src="/assets/img/footer/instagram.png"
-                                            alt="facebook"
+                                            alt="Instagram"
                                             className="w-8 4xl:w-10"
                                         />
                                     </a>
@@ -247,6 +247,20 @@ const Footer = () => {
                                         <img
                                             src="/assets/img/footer/whatsapp.png"
                                             alt="WhatsApp"
+                                            className="w-8 4xl:w-10"
+                                        />
+                                    </a>
+                                )}
+
+                                {TikTok && (
+                                    <a
+                                        href={TikTok.link}
+                                        aria-label="TikTok"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="/assets/img/footer/tik_tok.png"
+                                            alt="TikTok"
                                             className="w-8 4xl:w-10"
                                         />
                                     </a>

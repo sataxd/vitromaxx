@@ -231,6 +231,29 @@ const Header = ({
                     <div
                         className={`px-[5%] w-screen py-5 lg:py-0 flex justify-between items-center text-[#5e5e60]`}
                     >
+                        <div className="hidden md:flex lg:hidden flex-row space-x-3 text-xl items-center mr-4">
+                            {Instagram && (
+                                <a href={Instagram.link} aria-label="Instagram" target="_blank">
+                                    <img src="/assets/img/footer/instagram_n.png" alt="Instagram" className="w-6" />
+                                </a>
+                            )}
+                            {Facebook && (
+                                <a href={Facebook.link} aria-label="Facebook" target="_blank">
+                                    <img src="/assets/img/footer/facebook_n.png" alt="Facebook" className="w-6" />
+                                </a>
+                            )}
+                            {WhatsApp && (
+                                <a href={WhatsApp.link} aria-label="WhatsApp" target="_blank">
+                                    <img src="/assets/img/footer/whatsapp_n.png" alt="WhatsApp" className="w-6" />
+                                </a>
+                            )}
+                            {TikTok && (
+                                <a href={TikTok.link} target="_blank" aria-label="TikTok">
+                                    <img src="/assets/img/footer/tiktok_n.png" alt="TikTok" className="w-6" />
+                                </a>
+                            )}
+                        </div>
+
                         <div className="flex flex-row gap-6 justify-between items-center w-full lg:hidden">
                             
                             <button
@@ -399,10 +422,10 @@ const Header = ({
                                 {TikTok && (
                                     <a href={TikTok.link}
                                        target="_blank"
-                                       aria-label="Tik Tok">
+                                       aria-label="TikTok">
                                         <img
                                             src="/assets/img/footer/tiktok_n.png"
-                                            alt="WhatsApp"
+                                            alt="TikTok"
                                             className="w-8 4xl:w-10"
                                         />
                                     </a>

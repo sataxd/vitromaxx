@@ -1,0 +1,1 @@
+var r=Object.defineProperty;var n=(e,s,a)=>s in e?r(e,s,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[s]=a;var t=(e,s,a)=>n(e,typeof s!="symbol"?s+"":s,a);import{B as i}from"./BusinessIWorkCard-Bn9ge4OT.js";class o extends i{constructor(){super(...arguments);t(this,"path","admin/generals")}}export{o as G};

@@ -19,7 +19,9 @@ class Category extends Model
         'description',
         'visible',
         'status',
-        'image'
+        'image',
+        'banner_desktop',
+        'banner_mobile',
     ];
     
     public function subcategories()
