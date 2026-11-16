@@ -48,6 +48,7 @@
   {{-- icons --}}
   <link href="/lte/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.3.2/jsencrypt.min.js"></script>
 
   <!-- Leaflet CSS -->
   <link

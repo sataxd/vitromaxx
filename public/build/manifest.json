@@ -358,10 +358,6 @@
       "_createLucideIcon-Cx5eUsrb.js"
     ]
   },
-  "_auth-helper-BceYZi2u.js": {
-    "file": "assets/auth-helper-BceYZi2u.js",
-    "name": "JSEncrypt"
-  },
   "_calendar-Djo6y1ia.js": {
     "file": "assets/calendar-Djo6y1ia.js",
     "name": "calendar",
@@ -595,7 +591,7 @@
     ]
   },
   "resources/js/Admin/Account.jsx": {
-    "file": "assets/Account-D9JX1kBP.js",
+    "file": "assets/Account-BDGZeCWZ.js",
     "name": "Account",
     "src": "resources/js/Admin/Account.jsx",
     "isEntry": true,
@@ -603,7 +599,6 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_auth-helper-BceYZi2u.js",
       "_Base-CPnjQCFM.js",
       "_CreateReactScript-jg598gDa.js",
       "_main-CfHcH2Mm.js",
@@ -2468,7 +2463,7 @@
     ]
   },
   "resources/js/Login.jsx": {
-    "file": "assets/Login-B8ZhB718.js",
+    "file": "assets/Login-Cxu9LbzT.js",
     "name": "Login",
     "src": "resources/js/Login.jsx",
     "isEntry": true,
@@ -2476,7 +2471,6 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_auth-helper-BceYZi2u.js",
       "_CreateReactScript-jg598gDa.js",
       "_AuthRest-46vJ0sKW.js",
       "resources/js/Admin/ItemVariants.jsx",
@@ -2672,14 +2666,13 @@
     ]
   },
   "resources/js/Register.jsx": {
-    "file": "assets/Register-v990CHTg.js",
+    "file": "assets/Register-C7fPw0DL.js",
     "name": "Register",
     "src": "resources/js/Register.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index.esm-BtWik4qv.js",
-      "_auth-helper-BceYZi2u.js",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_index-CqrOtH36.js",
