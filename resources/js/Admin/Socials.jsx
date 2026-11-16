@@ -99,15 +99,6 @@ const Socials = ({ icons }) => {
             onClick: () => $(gridRef.current).dxDataGrid('instance').refresh()
           }
         });
-        container.unshift({
-          widget: 'dxButton', location: 'after',
-          options: {
-            icon: 'plus',
-            text: 'Nuevo registro',
-            hint: 'Nuevo registro',
-            onClick: () => onModalOpen()
-          }
-        });
       }}
       columns={[
         {
@@ -157,18 +148,12 @@ const Socials = ({ icons }) => {
               icon: 'fa fa-pen',
               onClick: () => onModalOpen(data)
             }))
-            container.append(DxButton({
-              className: 'btn btn-xs btn-soft-danger',
-              title: 'Eliminar',
-              icon: 'fa fa-trash',
-              onClick: () => onDeleteClicked(data.id)
-            }))
           },
           allowFiltering: false,
           allowExporting: false
         }
       ]} />
-    <Modal modalRef={modalRef} title={isEditing ? 'Editar red social' : 'Agregar red social'} onSubmit={onModalSubmit} size='md'>
+    <Modal modalRef={modalRef} title='Editar red social' onSubmit={onModalSubmit} size='md'>
       <div className='row' id='socials-container'>
         <input ref={idRef} type='hidden' />
         <SelectFormGroup eRef={iconRef} label='Ícono' dropdownParent='#socials-container' col='col-md-4' templateResult={iconTemplate} templateSelection={iconTemplate} >

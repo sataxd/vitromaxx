@@ -6,16 +6,16 @@
       "_main-CfHcH2Mm.js"
     ]
   },
-  "_Base-DQZq5jmj.js": {
-    "file": "assets/Base-DQZq5jmj.js",
+  "_Base-CeVEWJ6_.js": {
+    "file": "assets/Base-CeVEWJ6_.js",
     "name": "Base",
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_tippy-react.esm-DCGOd8Dz.js",
       "_Logout-CfWMDtAA.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "_main-CfHcH2Mm.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx"
@@ -43,13 +43,13 @@
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
     ]
   },
-  "_ContactSection-DEqJxYsE.js": {
-    "file": "assets/ContactSection-DEqJxYsE.js",
+  "_ContactSection-CGC1t_iV.js": {
+    "file": "assets/ContactSection-CGC1t_iV.js",
     "name": "ContactSection",
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "_user-Hi7dgaia.js",
@@ -68,11 +68,11 @@
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
     ]
   },
-  "_CreateReactScript-Kd7oNCb8.js": {
-    "file": "assets/CreateReactScript-Kd7oNCb8.js",
+  "_CreateReactScript-DglRU3Ia.js": {
+    "file": "assets/CreateReactScript-DglRU3Ia.js",
     "name": "CreateReactScript",
     "imports": [
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "_main-CfHcH2Mm.js"
     ],
     "css": [
@@ -84,8 +84,8 @@
     "file": "assets/DxButton-CsjWvhyj.js",
     "name": "DxButton"
   },
-  "_Footer-Ca2usNi7.js": {
-    "file": "assets/Footer-Ca2usNi7.js",
+  "_Footer-BZU-GNvj.js": {
+    "file": "assets/Footer-BZU-GNvj.js",
     "name": "Footer",
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
@@ -414,8 +414,8 @@
       "_index-B80Lgev0.js"
     ]
   },
-  "_index.esm-B5Y9FD8b.js": {
-    "file": "assets/index.esm-B5Y9FD8b.js",
+  "_index.esm-CMbNfPOf.js": {
+    "file": "assets/index.esm-CMbNfPOf.js",
     "name": "index.esm",
     "imports": [
       "_index-B80Lgev0.js",
@@ -527,7 +527,7 @@
     "isEntry": true
   },
   "resources/js/About.jsx": {
-    "file": "assets/About-C1HUSRoA.js",
+    "file": "assets/About-WxVytDNx.js",
     "name": "About",
     "src": "resources/js/About.jsx",
     "isEntry": true,
@@ -536,8 +536,8 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Footer-Ca2usNi7.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_proxy-CpucQrne.js",
       "_HtmlContent-DJrDQtkv.js",
@@ -545,7 +545,7 @@
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "_Marcas-CKcGizh9.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_Logout-CfWMDtAA.js",
       "_index-CjIYhaG0.js",
@@ -559,13 +559,13 @@
     ]
   },
   "resources/js/Admin/About.jsx": {
-    "file": "assets/About-DeOiITWc.js",
+    "file": "assets/About-DWONSCSZ.js",
     "name": "About",
     "src": "resources/js/Admin/About.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
-      "_Base-DQZq5jmj.js",
+      "_Base-CeVEWJ6_.js",
       "_SwitchFormGroup-D1z1IYji.js",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
@@ -574,7 +574,7 @@
       "_Table-C_EdOegp.js",
       "_DxButton-CsjWvhyj.js",
       "_InputFormGroup-CXYMXOWT.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_ReactAppend-CPaHonHf.js",
       "_ImageFormGroup-CQR34wYi.js",
       "_TextareaCKeditorFormGroup-Brux-NFO.js",
@@ -583,7 +583,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "resources/js/components/Adminto/form/TextareaCKeditorFormGroup.jsx",
@@ -595,7 +595,7 @@
     ]
   },
   "resources/js/Admin/Account.jsx": {
-    "file": "assets/Account-D-jGxhKX.js",
+    "file": "assets/Account-DDemEXOp.js",
     "name": "Account",
     "src": "resources/js/Admin/Account.jsx",
     "isEntry": true,
@@ -604,15 +604,15 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_JSEncryptProxy-DBsko8RZ.js",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_main-CfHcH2Mm.js",
       "_InputFormGroup-CvLLEJIn.js",
       "_PasswordFormGroup-B1dl0dgS.js",
       "_Logout-CfWMDtAA.js",
       "_index-DC1rVYmi.js",
       "_tippy-react.esm-DCGOd8Dz.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx"
@@ -623,7 +623,7 @@
     ]
   },
   "resources/js/Admin/Ads.jsx": {
-    "file": "assets/Ads-BLIZhB8c.js",
+    "file": "assets/Ads-1fdKXsHL.js",
     "name": "Ads",
     "src": "resources/js/Admin/Ads.jsx",
     "isEntry": true,
@@ -631,8 +631,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -650,7 +650,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -659,7 +659,7 @@
     ]
   },
   "resources/js/Admin/Bundles.jsx": {
-    "file": "assets/Bundles-47-m9Ub8.js",
+    "file": "assets/Bundles-C4fwyBwl.js",
     "name": "Bundles",
     "src": "resources/js/Admin/Bundles.jsx",
     "isEntry": true,
@@ -667,8 +667,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -684,7 +684,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -693,7 +693,7 @@
     ]
   },
   "resources/js/Admin/Categories.jsx": {
-    "file": "assets/Categories-D4qp-V1l.js",
+    "file": "assets/Categories-BrKjvhlB.js",
     "name": "Categories",
     "src": "resources/js/Admin/Categories.jsx",
     "isEntry": true,
@@ -701,8 +701,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -720,7 +720,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -729,7 +729,7 @@
     ]
   },
   "resources/js/Admin/Colors.jsx": {
-    "file": "assets/Colors-CvveBIYm.js",
+    "file": "assets/Colors-BT487Vnq.js",
     "name": "Colors",
     "src": "resources/js/Admin/Colors.jsx",
     "isEntry": true,
@@ -737,8 +737,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -754,7 +754,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
     ],
@@ -764,7 +764,7 @@
     ]
   },
   "resources/js/Admin/Complaints.jsx": {
-    "file": "assets/Complaints-6KKElEQH.js",
+    "file": "assets/Complaints-DNA5UlPu.js",
     "name": "Complaints",
     "src": "resources/js/Admin/Complaints.jsx",
     "isEntry": true,
@@ -772,8 +772,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -784,7 +784,7 @@
       "_index-DC1rVYmi.js",
       "_tippy-react.esm-DCGOd8Dz.js",
       "_Logout-CfWMDtAA.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx"
@@ -795,7 +795,7 @@
     ]
   },
   "resources/js/Admin/CoreValues.jsx": {
-    "file": "assets/CoreValues-DWfNnm97.js",
+    "file": "assets/CoreValues-DvkjiSxI.js",
     "name": "CoreValues",
     "src": "resources/js/Admin/CoreValues.jsx",
     "isEntry": true,
@@ -803,8 +803,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -820,7 +820,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -829,7 +829,7 @@
     ]
   },
   "resources/js/Admin/Coupons.jsx": {
-    "file": "assets/Coupons-BzCjJxpN.js",
+    "file": "assets/Coupons-CkCXOO_r.js",
     "name": "Coupons",
     "src": "resources/js/Admin/Coupons.jsx",
     "isEntry": true,
@@ -837,8 +837,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -856,7 +856,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -865,7 +865,7 @@
     ]
   },
   "resources/js/Admin/Faqs.jsx": {
-    "file": "assets/Faqs-CIrsGfWz.js",
+    "file": "assets/Faqs-BEvZ7AKc.js",
     "name": "Faqs",
     "src": "resources/js/Admin/Faqs.jsx",
     "isEntry": true,
@@ -873,8 +873,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -888,7 +888,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -897,7 +897,7 @@
     ]
   },
   "resources/js/Admin/Formulas.jsx": {
-    "file": "assets/Formulas-BjV_7NQf.js",
+    "file": "assets/Formulas-04Y5cBGI.js",
     "name": "Formulas",
     "src": "resources/js/Admin/Formulas.jsx",
     "isEntry": true,
@@ -905,8 +905,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -920,7 +920,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx"
     ],
@@ -930,7 +930,7 @@
     ]
   },
   "resources/js/Admin/Fragrances.jsx": {
-    "file": "assets/Fragrances-DBK5FgDK.js",
+    "file": "assets/Fragrances-RtUrU-NT.js",
     "name": "Fragrances",
     "src": "resources/js/Admin/Fragrances.jsx",
     "isEntry": true,
@@ -938,8 +938,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -955,7 +955,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -964,7 +964,7 @@
     ]
   },
   "resources/js/Admin/Gallery.jsx": {
-    "file": "assets/Gallery-D1JYvEd1.js",
+    "file": "assets/Gallery-BjTYGoF_.js",
     "name": "Gallery",
     "src": "resources/js/Admin/Gallery.jsx",
     "isEntry": true,
@@ -972,15 +972,15 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_GalleryRest-C9NX3yVW.js",
       "_index-DC1rVYmi.js",
       "_tippy-react.esm-DCGOd8Dz.js",
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
@@ -991,7 +991,7 @@
     ]
   },
   "resources/js/Admin/Generals.jsx": {
-    "file": "assets/Generals-geBzRniD.js",
+    "file": "assets/Generals-BIJp4C8s.js",
     "name": "Generals",
     "src": "resources/js/Admin/Generals.jsx",
     "isEntry": true,
@@ -999,11 +999,11 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "_index-DC1rVYmi.js",
-      "_Base-DQZq5jmj.js",
+      "_Base-CeVEWJ6_.js",
       "_GeneralsRest-CN8s-cnk.js",
       "_GalleryRest-C9NX3yVW.js",
       "_tippy-react.esm-DCGOd8Dz.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_QuillFormGroup-BjvxQPQI.js",
       "_TextareaFormGroup-BTca4M2J.js",
@@ -1012,7 +1012,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
@@ -1023,7 +1023,7 @@
     ]
   },
   "resources/js/Admin/Gifts.jsx": {
-    "file": "assets/Gifts-BgWO_H_2.js",
+    "file": "assets/Gifts-Bg9SsB6P.js",
     "name": "Gifts",
     "src": "resources/js/Admin/Gifts.jsx",
     "isEntry": true,
@@ -1031,8 +1031,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -1048,7 +1048,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
     ],
@@ -1058,7 +1058,7 @@
     ]
   },
   "resources/js/Admin/Home.jsx": {
-    "file": "assets/Home-BijXUDfa.js",
+    "file": "assets/Home-SMMZshmG.js",
     "name": "Home",
     "src": "resources/js/Admin/Home.jsx",
     "isEntry": true,
@@ -1066,11 +1066,11 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Base-DQZq5jmj.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Base-CeVEWJ6_.js",
       "_index-CqrOtH36.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_tippy-react.esm-DCGOd8Dz.js",
@@ -1084,7 +1084,7 @@
     ]
   },
   "resources/js/Admin/Indicators.jsx": {
-    "file": "assets/Indicators-D0NhckSJ.js",
+    "file": "assets/Indicators-DrUqsJhw.js",
     "name": "Indicators",
     "src": "resources/js/Admin/Indicators.jsx",
     "isEntry": true,
@@ -1092,8 +1092,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CXYMXOWT.js",
@@ -1106,7 +1106,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1115,7 +1115,7 @@
     ]
   },
   "resources/js/Admin/InstagramPosts.jsx": {
-    "file": "assets/InstagramPosts-CPLqMx9f.js",
+    "file": "assets/InstagramPosts-LpuMImDD.js",
     "name": "InstagramPosts",
     "src": "resources/js/Admin/InstagramPosts.jsx",
     "isEntry": true,
@@ -1123,8 +1123,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -1140,7 +1140,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1177,13 +1177,13 @@
     ]
   },
   "resources/js/Admin/Items.jsx": {
-    "file": "assets/Items-CIAGmHkn.js",
+    "file": "assets/Items-oLaoqeZf.js",
     "name": "Items",
     "src": "resources/js/Admin/Items.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
-      "_Base-DQZq5jmj.js",
+      "_Base-CeVEWJ6_.js",
       "_SwitchFormGroup-D1z1IYji.js",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
@@ -1196,7 +1196,7 @@
       "_InputFormGroup-CvLLEJIn.js",
       "_SelectFormGroup-B4ZpW163.js",
       "_DxButton-CsjWvhyj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Number2Currency-e57Tgsuk.js",
       "_ReactAppend-CPaHonHf.js",
       "_index-CjIYhaG0.js",
@@ -1207,7 +1207,7 @@
       "_tippy-react.esm-DCGOd8Dz.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -1220,7 +1220,7 @@
     ]
   },
   "resources/js/Admin/Messages.jsx": {
-    "file": "assets/Messages-CRXekccJ.js",
+    "file": "assets/Messages-mMjAscUt.js",
     "name": "Messages",
     "src": "resources/js/Admin/Messages.jsx",
     "isEntry": true,
@@ -1228,8 +1228,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_DxButton-CsjWvhyj.js",
       "_ReactAppend-CPaHonHf.js",
@@ -1241,7 +1241,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1264,7 +1264,7 @@
     ]
   },
   "resources/js/Admin/Posts.jsx": {
-    "file": "assets/Posts-D1x5wFa-.js",
+    "file": "assets/Posts-L2pSmF0H.js",
     "name": "Posts",
     "src": "resources/js/Admin/Posts.jsx",
     "isEntry": true,
@@ -1272,8 +1272,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CXYMXOWT.js",
@@ -1289,7 +1289,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1298,7 +1298,7 @@
     ]
   },
   "resources/js/Admin/Profile.jsx": {
-    "file": "assets/Profile-CVASZ8lP.js",
+    "file": "assets/Profile-E6gymU4p.js",
     "name": "Profile",
     "src": "resources/js/Admin/Profile.jsx",
     "isEntry": true,
@@ -1308,13 +1308,13 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_main-CfHcH2Mm.js",
-      "_Base-DQZq5jmj.js",
+      "_Base-CeVEWJ6_.js",
       "_InputFormGroup-CvLLEJIn.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_index-DC1rVYmi.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_Logout-CfWMDtAA.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx"
     ],
@@ -1324,7 +1324,7 @@
     ]
   },
   "resources/js/Admin/Renewals.jsx": {
-    "file": "assets/Renewals-BwPbi_kv.js",
+    "file": "assets/Renewals-BXskHyEc.js",
     "name": "Renewals",
     "src": "resources/js/Admin/Renewals.jsx",
     "isEntry": true,
@@ -1332,8 +1332,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -1348,7 +1348,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1357,7 +1357,7 @@
     ]
   },
   "resources/js/Admin/Sales.jsx": {
-    "file": "assets/Sales-BpzisLfq.js",
+    "file": "assets/Sales-inNxp58s.js",
     "name": "Sales",
     "src": "resources/js/Admin/Sales.jsx",
     "isEntry": true,
@@ -1365,8 +1365,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_DxButton-CsjWvhyj.js",
       "_ReactAppend-CPaHonHf.js",
@@ -1379,7 +1379,7 @@
       "resources/js/components/Adminto/Dx/DxBox.jsx",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
@@ -1389,13 +1389,13 @@
     ]
   },
   "resources/js/Admin/Services.jsx": {
-    "file": "assets/Services-JmfZ0G9t.js",
+    "file": "assets/Services-CVQ-pzqM.js",
     "name": "Services",
     "src": "resources/js/Admin/Services.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
-      "_Base-DQZq5jmj.js",
+      "_Base-CeVEWJ6_.js",
       "_SwitchFormGroup-D1z1IYji.js",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
@@ -1404,7 +1404,7 @@
       "_Table-C_EdOegp.js",
       "_DxButton-CsjWvhyj.js",
       "_InputFormGroup-CXYMXOWT.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_ReactAppend-CPaHonHf.js",
       "_ImageFormGroup-CQR34wYi.js",
       "_TextareaCKeditorFormGroup-Brux-NFO.js",
@@ -1413,7 +1413,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "resources/js/components/Adminto/form/TextareaCKeditorFormGroup.jsx",
@@ -1425,7 +1425,7 @@
     ]
   },
   "resources/js/Admin/ShippingCost.jsx": {
-    "file": "assets/ShippingCost-D-8d5_fF.js",
+    "file": "assets/ShippingCost-BxSh2XSO.js",
     "name": "ShippingCost",
     "src": "resources/js/Admin/ShippingCost.jsx",
     "isEntry": true,
@@ -1433,8 +1433,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CXYMXOWT.js",
@@ -1447,7 +1447,7 @@
       "_index-DC1rVYmi.js",
       "_tippy-react.esm-DCGOd8Dz.js",
       "_Logout-CfWMDtAA.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
@@ -1457,7 +1457,7 @@
     ]
   },
   "resources/js/Admin/Sizes.jsx": {
-    "file": "assets/Sizes-ASLCbzQ8.js",
+    "file": "assets/Sizes-Cnye7Fn-.js",
     "name": "Sizes",
     "src": "resources/js/Admin/Sizes.jsx",
     "isEntry": true,
@@ -1465,8 +1465,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -1482,7 +1482,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
     ],
@@ -1492,7 +1492,7 @@
     ]
   },
   "resources/js/Admin/Sliders.jsx": {
-    "file": "assets/Sliders-BNtsJPNb.js",
+    "file": "assets/Sliders-B-wJ9lPO.js",
     "name": "Sliders",
     "src": "resources/js/Admin/Sliders.jsx",
     "isEntry": true,
@@ -1500,8 +1500,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CXYMXOWT.js",
@@ -1517,7 +1517,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1526,7 +1526,7 @@
     ]
   },
   "resources/js/Admin/Socials.jsx": {
-    "file": "assets/Socials-5H3qWQ-k.js",
+    "file": "assets/Socials-CFZ9nVWR.js",
     "name": "Socials",
     "src": "resources/js/Admin/Socials.jsx",
     "isEntry": true,
@@ -1534,8 +1534,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -1552,7 +1552,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1561,7 +1561,7 @@
     ]
   },
   "resources/js/Admin/Strengths.jsx": {
-    "file": "assets/Strengths-EMcueEuM.js",
+    "file": "assets/Strengths-7jO9Oh7H.js",
     "name": "Strengths",
     "src": "resources/js/Admin/Strengths.jsx",
     "isEntry": true,
@@ -1569,8 +1569,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_DxButton-CsjWvhyj.js",
@@ -1584,7 +1584,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1593,7 +1593,7 @@
     ]
   },
   "resources/js/Admin/Subcategories.jsx": {
-    "file": "assets/Subcategories-B8MfQxOH.js",
+    "file": "assets/Subcategories-DsTy4y1_.js",
     "name": "Subcategories",
     "src": "resources/js/Admin/Subcategories.jsx",
     "isEntry": true,
@@ -1601,8 +1601,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -1619,7 +1619,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1628,7 +1628,7 @@
     ]
   },
   "resources/js/Admin/Subscriptions.jsx": {
-    "file": "assets/Subscriptions-FqOq6Rq4.js",
+    "file": "assets/Subscriptions-C9Ap4ExT.js",
     "name": "Subscriptions",
     "src": "resources/js/Admin/Subscriptions.jsx",
     "isEntry": true,
@@ -1636,8 +1636,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_DxButton-CsjWvhyj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -1648,7 +1648,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1657,7 +1657,7 @@
     ]
   },
   "resources/js/Admin/Supplies.jsx": {
-    "file": "assets/Supplies-QsZdroNB.js",
+    "file": "assets/Supplies-xZdhjWHw.js",
     "name": "Supplies",
     "src": "resources/js/Admin/Supplies.jsx",
     "isEntry": true,
@@ -1665,8 +1665,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CvLLEJIn.js",
@@ -1681,7 +1681,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1690,7 +1690,7 @@
     ]
   },
   "resources/js/Admin/Tags.jsx": {
-    "file": "assets/Tags-ChdTz5MY.js",
+    "file": "assets/Tags-CkqW9F8a.js",
     "name": "Tags",
     "src": "resources/js/Admin/Tags.jsx",
     "isEntry": true,
@@ -1698,8 +1698,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -1714,7 +1714,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1723,7 +1723,7 @@
     ]
   },
   "resources/js/Admin/Testimonies.jsx": {
-    "file": "assets/Testimonies-33Upwm-b.js",
+    "file": "assets/Testimonies-CLSwY3QI.js",
     "name": "Testimonies",
     "src": "resources/js/Admin/Testimonies.jsx",
     "isEntry": true,
@@ -1731,8 +1731,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_InputFormGroup-CXYMXOWT.js",
@@ -1747,7 +1747,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1756,7 +1756,7 @@
     ]
   },
   "resources/js/Admin/Users.jsx": {
-    "file": "assets/Users-DPAENPrj.js",
+    "file": "assets/Users-DQivfY85.js",
     "name": "Users",
     "src": "resources/js/Admin/Users.jsx",
     "isEntry": true,
@@ -1764,8 +1764,8 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Base-DQZq5jmj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Base-CeVEWJ6_.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Table-C_EdOegp.js",
       "_Modal-jaq5B-rR.js",
       "_ReactAppend-CPaHonHf.js",
@@ -1781,7 +1781,7 @@
       "_Logout-CfWMDtAA.js",
       "_main-CfHcH2Mm.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx"
     ],
     "css": [
@@ -1790,17 +1790,17 @@
     ]
   },
   "resources/js/AlarmaIncendios.jsx": {
-    "file": "assets/AlarmaIncendios-C8vIMvQI.js",
+    "file": "assets/AlarmaIncendios-C5x8VPZy.js",
     "name": "AlarmaIncendios",
     "src": "resources/js/AlarmaIncendios.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -1808,7 +1808,7 @@
       "_Products-DkFg0AM4.js",
       "_ServiceTecnical-CmFWd_vz.js",
       "_Marcas-CKcGizh9.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -1829,17 +1829,17 @@
     ]
   },
   "resources/js/AlarmaRobos.jsx": {
-    "file": "assets/AlarmaRobos-CD3HM3QP.js",
+    "file": "assets/AlarmaRobos-DVaMcNvP.js",
     "name": "AlarmaRobos",
     "src": "resources/js/AlarmaRobos.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -1847,7 +1847,7 @@
       "_Products-DkFg0AM4.js",
       "_ServiceTecnical-CmFWd_vz.js",
       "_Marcas-CKcGizh9.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -1868,21 +1868,21 @@
     ]
   },
   "resources/js/Blog.jsx": {
-    "file": "assets/Blog-DXQaInMQ.js",
+    "file": "assets/Blog-BgSJjdzc.js",
     "name": "Blog",
     "src": "resources/js/Blog.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Admin/ItemVariants.jsx",
       "_SubscriptionsRest-BauyeERq.js",
       "_HtmlContent-DJrDQtkv.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_index-DC1rVYmi.js"
@@ -1896,21 +1896,21 @@
     ]
   },
   "resources/js/BlogArticle.jsx": {
-    "file": "assets/BlogArticle-D0ADo-01.js",
+    "file": "assets/BlogArticle-LtKoV04k.js",
     "name": "BlogArticle",
     "src": "resources/js/BlogArticle.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "_HtmlContent-DJrDQtkv.js",
       "_tippy-react.esm-DCGOd8Dz.js",
       "_proxy-CpucQrne.js",
       "_createLucideIcon-Cx5eUsrb.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_index-DC1rVYmi.js"
@@ -1921,7 +1921,7 @@
     ]
   },
   "resources/js/Cart.jsx": {
-    "file": "assets/Cart-EduTHU-B.js",
+    "file": "assets/Cart-CWuUWwV4.js",
     "name": "Cart",
     "src": "resources/js/Cart.jsx",
     "isEntry": true,
@@ -1931,8 +1931,8 @@
       "resources/js/components/Tailwind/Header.jsx",
       "_Number2Currency-e57Tgsuk.js",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_Footer-BZU-GNvj.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_createLucideIcon-Cx5eUsrb.js",
       "_arrow-right-DCVYQWPU.js",
@@ -1947,7 +1947,7 @@
       "_index-DC1rVYmi.js",
       "_index-CqrOtH36.js",
       "_HtmlContent-DJrDQtkv.js",
-      "_index.esm-B5Y9FD8b.js"
+      "_index.esm-CMbNfPOf.js"
     ],
     "css": [
       "swiper.css",
@@ -1955,7 +1955,7 @@
     ]
   },
   "resources/js/CatalogProducts.jsx": {
-    "file": "assets/CatalogProducts-BM8vQ0Jh.js",
+    "file": "assets/CatalogProducts-EIUxLwhj.js",
     "name": "CatalogProducts",
     "src": "resources/js/CatalogProducts.jsx",
     "isEntry": true,
@@ -1964,13 +1964,13 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Footer-Ca2usNi7.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Footer-BZU-GNvj.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "_ProductCard-1QF2Rogm.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_Logout-CfWMDtAA.js",
@@ -1987,17 +1987,17 @@
     ]
   },
   "resources/js/CercoElectrico.jsx": {
-    "file": "assets/CercoElectrico-CNhQuQun.js",
+    "file": "assets/CercoElectrico-CoWKHzFo.js",
     "name": "CercoElectrico",
     "src": "resources/js/CercoElectrico.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -2005,7 +2005,7 @@
       "_Products-DkFg0AM4.js",
       "_ServiceTecnical-CmFWd_vz.js",
       "_Marcas-CKcGizh9.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2026,7 +2026,7 @@
     ]
   },
   "resources/js/Checkout.jsx": {
-    "file": "assets/Checkout-Bdu3W8WK.js",
+    "file": "assets/Checkout-BXLstPZo.js",
     "name": "Checkout",
     "src": "resources/js/Checkout.jsx",
     "isEntry": true,
@@ -2035,20 +2035,20 @@
       "_index-B80Lgev0.js",
       "_main-CfHcH2Mm.js",
       "_CouponsRest-B6CNmkMt.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Number2Currency-e57Tgsuk.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/components/Tailwind/Header.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "_shield-check-CUn6pu0x.js",
       "_truck-BaYRgC-B.js",
       "_lock-D88EBI2F.js",
       "_chevron-down-CyYB_9vX.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_createLucideIcon-Cx5eUsrb.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "_ItemRest-Ce4o1mZz.js",
       "_proxy-CpucQrne.js",
       "_index-DC1rVYmi.js",
@@ -2063,7 +2063,7 @@
     ]
   },
   "resources/js/Checkout_bk.jsx": {
-    "file": "assets/Checkout_bk-CHcNFm_v.js",
+    "file": "assets/Checkout_bk-C6NSXdo2.js",
     "name": "Checkout_bk",
     "src": "resources/js/Checkout_bk.jsx",
     "isEntry": true,
@@ -2072,19 +2072,19 @@
       "_index-B80Lgev0.js",
       "_main-CfHcH2Mm.js",
       "_CouponsRest-B6CNmkMt.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Number2Currency-e57Tgsuk.js",
       "_tippy-react.esm-DCGOd8Dz.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "_shield-check-CUn6pu0x.js",
       "_chevron-down-CyYB_9vX.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "_index-DC1rVYmi.js",
       "_ItemRest-Ce4o1mZz.js",
       "_proxy-CpucQrne.js",
@@ -2099,26 +2099,26 @@
     ]
   },
   "resources/js/ComplaintsBook.jsx": {
-    "file": "assets/ComplaintsBook-D5bHkNCt.js",
+    "file": "assets/ComplaintsBook-BTkelFwv.js",
     "name": "ComplaintsBook",
     "src": "resources/js/ComplaintsBook.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "_user-Hi7dgaia.js",
       "_map-pin-Bru9D0W9.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "_shield-check-CUn6pu0x.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2134,7 +2134,7 @@
     ]
   },
   "resources/js/ConfirmEmail.jsx": {
-    "file": "assets/ConfirmEmail-TT1TUzWm.js",
+    "file": "assets/ConfirmEmail-BeD9F3vf.js",
     "name": "ConfirmEmail",
     "src": "resources/js/ConfirmEmail.jsx",
     "isEntry": true,
@@ -2142,14 +2142,14 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "_arrow-right-DCVYQWPU.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -2166,22 +2166,22 @@
     ]
   },
   "resources/js/Contact.jsx": {
-    "file": "assets/Contact-mpZ4yWZ_.js",
+    "file": "assets/Contact-BfDbVQJ9.js",
     "name": "Contact",
     "src": "resources/js/Contact.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
-      "_ContactSection-DEqJxYsE.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_ContactSection-CGC1t_iV.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_index-DC1rVYmi.js",
@@ -2201,7 +2201,7 @@
     ]
   },
   "resources/js/CourseDetails.jsx": {
-    "file": "assets/CourseDetails-u3YkY1HW.js",
+    "file": "assets/CourseDetails-BYfQAGrJ.js",
     "name": "CourseDetails",
     "src": "resources/js/CourseDetails.jsx",
     "isEntry": true,
@@ -2209,14 +2209,14 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Base-sHhZxJzj.js",
       "_HtmlContent-DJrDQtkv.js",
       "_main-CfHcH2Mm.js",
       "_Number2Currency-e57Tgsuk.js",
       "_proxy-CpucQrne.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
     ],
     "css": [
@@ -2225,7 +2225,7 @@
     ]
   },
   "resources/js/DetailProduct.jsx": {
-    "file": "assets/DetailProduct-CTb5znPQ.js",
+    "file": "assets/DetailProduct-Co_HN1jy.js",
     "name": "DetailProduct",
     "src": "resources/js/DetailProduct.jsx",
     "isEntry": true,
@@ -2234,8 +2234,8 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Footer-Ca2usNi7.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_HtmlContent-DJrDQtkv.js",
       "_swiper-react-BT1YUSjq.js",
@@ -2243,7 +2243,7 @@
       "resources/js/components/Tailwind/Products/ProductCarousel.jsx",
       "resources/js/components/Tailwind/DetailProduct/Detail.jsx",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_Logout-CfWMDtAA.js",
@@ -2260,7 +2260,7 @@
     ]
   },
   "resources/js/FAQs.jsx": {
-    "file": "assets/FAQs-qwmGYoY1.js",
+    "file": "assets/FAQs-ClK9S-Cd.js",
     "name": "FAQs",
     "src": "resources/js/FAQs.jsx",
     "isEntry": true,
@@ -2269,10 +2269,10 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/components/Home/CallToAction.jsx",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js"
     ],
@@ -2282,7 +2282,7 @@
     ]
   },
   "resources/js/Formula.jsx": {
-    "file": "assets/Formula-C_i7PY0U.js",
+    "file": "assets/Formula-y27tS3Dy.js",
     "name": "Formula",
     "src": "resources/js/Formula.jsx",
     "isEntry": true,
@@ -2291,7 +2291,7 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_main-CfHcH2Mm.js",
       "_CouponsRest-B6CNmkMt.js",
       "_Number2Currency-e57Tgsuk.js",
@@ -2299,7 +2299,7 @@
       "_shield-check-CUn6pu0x.js",
       "resources/js/components/Home/CallToAction.jsx",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
@@ -2310,7 +2310,7 @@
     ]
   },
   "resources/js/Home.jsx": {
-    "file": "assets/Home-D6pvhrU0.js",
+    "file": "assets/Home-D88SPNZy.js",
     "name": "Home",
     "src": "resources/js/Home.jsx",
     "isEntry": true,
@@ -2319,11 +2319,11 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_index-CjIYhaG0.js",
       "_swiper-react-BT1YUSjq.js",
       "resources/js/components/Home/Supplies.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/About/Strengths.jsx",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
@@ -2333,10 +2333,10 @@
       "_ServiceTecnical-CmFWd_vz.js",
       "resources/js/components/Home/Slider.jsx",
       "_proxy-CpucQrne.js",
-      "_ContactSection-DEqJxYsE.js",
+      "_ContactSection-CGC1t_iV.js",
       "_HtmlContent-DJrDQtkv.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-CqrOtH36.js",
       "_Logout-CfWMDtAA.js",
@@ -2352,17 +2352,17 @@
     ]
   },
   "resources/js/Hospitalario.jsx": {
-    "file": "assets/Hospitalario-BxzLndOw.js",
+    "file": "assets/Hospitalario-HwyyDtnR.js",
     "name": "Hospitalario",
     "src": "resources/js/Hospitalario.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -2370,7 +2370,7 @@
       "_Products-DkFg0AM4.js",
       "_ServiceTecnical-CmFWd_vz.js",
       "_Marcas-CKcGizh9.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2391,7 +2391,7 @@
     ]
   },
   "resources/js/Instructions.jsx": {
-    "file": "assets/Instructions-Dn55Dxlm.js",
+    "file": "assets/Instructions-DdXzcB-o.js",
     "name": "Instructions",
     "src": "resources/js/Instructions.jsx",
     "isEntry": true,
@@ -2400,8 +2400,8 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Footer-Ca2usNi7.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Footer-BZU-GNvj.js",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "_swiper-react-BT1YUSjq.js",
@@ -2413,7 +2413,7 @@
       "resources/js/components/Tailwind/Instructions/WeCupSection.jsx",
       "_classes-to-selector-Br0XARct.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_Logout-CfWMDtAA.js",
       "_index-CjIYhaG0.js",
@@ -2429,17 +2429,17 @@
     ]
   },
   "resources/js/Intercomunicadores.jsx": {
-    "file": "assets/Intercomunicadores-Ds9whe2Z.js",
+    "file": "assets/Intercomunicadores-BLA9y6yR.js",
     "name": "Intercomunicadores",
     "src": "resources/js/Intercomunicadores.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_Products-DkFg0AM4.js",
       "_main-CfHcH2Mm.js",
@@ -2447,7 +2447,7 @@
       "_HtmlContent-DJrDQtkv.js",
       "_ServiceTecnical-CmFWd_vz.js",
       "_Marcas-CKcGizh9.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2468,7 +2468,7 @@
     ]
   },
   "resources/js/Login.jsx": {
-    "file": "assets/Login-CA2iNLGl.js",
+    "file": "assets/Login-BF9_cfU-.js",
     "name": "Login",
     "src": "resources/js/Login.jsx",
     "isEntry": true,
@@ -2477,18 +2477,18 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_JSEncryptProxy-DBsko8RZ.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_AuthRest-46vJ0sKW.js",
       "resources/js/Admin/ItemVariants.jsx",
       "_main-CfHcH2Mm.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "_mail-DJ-Vklos.js",
       "_lock-D88EBI2F.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "_ItemRest-Ce4o1mZz.js",
@@ -2504,7 +2504,7 @@
     ]
   },
   "resources/js/LoginVua.jsx": {
-    "file": "assets/LoginVua-C-ntnZQ3.js",
+    "file": "assets/LoginVua-Cw78gZw7.js",
     "name": "LoginVua",
     "src": "resources/js/LoginVua.jsx",
     "isEntry": true,
@@ -2513,9 +2513,9 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js"
     ],
@@ -2525,7 +2525,7 @@
     ]
   },
   "resources/js/MyAccount.jsx": {
-    "file": "assets/MyAccount-C2ddL-ZL.js",
+    "file": "assets/MyAccount-CJS0Nq7v.js",
     "name": "MyAccount",
     "src": "resources/js/MyAccount.jsx",
     "isEntry": true,
@@ -2534,8 +2534,8 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Footer-Ca2usNi7.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_index-CjIYhaG0.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -2552,7 +2552,7 @@
       "_map-pin-Bru9D0W9.js",
       "_Logout-CfWMDtAA.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_HtmlContent-DJrDQtkv.js",
       "_ItemRest-Ce4o1mZz.js",
@@ -2565,7 +2565,7 @@
     ]
   },
   "resources/js/Plans.jsx": {
-    "file": "assets/Plans-BmN5e8xe.js",
+    "file": "assets/Plans-YvZ8WLm2.js",
     "name": "Plans",
     "src": "resources/js/Plans.jsx",
     "isEntry": true,
@@ -2574,9 +2574,9 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js"
     ],
@@ -2586,7 +2586,7 @@
     ]
   },
   "resources/js/Popup.jsx": {
-    "file": "assets/Popup-7JyvngJT.js",
+    "file": "assets/Popup-DaNdcJsr.js",
     "name": "Popup",
     "src": "resources/js/Popup.jsx",
     "isEntry": true,
@@ -2595,9 +2595,9 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js"
     ],
@@ -2607,23 +2607,23 @@
     ]
   },
   "resources/js/Privacy.jsx": {
-    "file": "assets/Privacy-Z3Rwh1LP.js",
+    "file": "assets/Privacy-DmZkR3Cx.js",
     "name": "Privacy",
     "src": "resources/js/Privacy.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "_HtmlContent-DJrDQtkv.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2639,7 +2639,7 @@
     ]
   },
   "resources/js/Quiz.jsx": {
-    "file": "assets/Quiz-vcM4KYAo.js",
+    "file": "assets/Quiz-fm_bsQkL.js",
     "name": "Quiz",
     "src": "resources/js/Quiz.jsx",
     "isEntry": true,
@@ -2648,13 +2648,13 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
-      "_Footer-Ca2usNi7.js",
+      "_CreateReactScript-DglRU3Ia.js",
+      "_Footer-BZU-GNvj.js",
       "_SubscriptionsRest-BauyeERq.js",
       "resources/js/components/Tailwind/Header.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_Logout-CfWMDtAA.js",
@@ -2672,23 +2672,23 @@
     ]
   },
   "resources/js/Register.jsx": {
-    "file": "assets/Register-BRtsRKwf.js",
+    "file": "assets/Register-RWsS51ot.js",
     "name": "Register",
     "src": "resources/js/Register.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "_JSEncryptProxy-DBsko8RZ.js",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_index-CqrOtH36.js",
       "resources/js/Admin/ItemVariants.jsx",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_AuthRest-46vJ0sKW.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "_user-Hi7dgaia.js",
       "_calendar-Djo6y1ia.js",
       "_createLucideIcon-Cx5eUsrb.js",
@@ -2710,23 +2710,23 @@
     ]
   },
   "resources/js/ReturnPolitics.jsx": {
-    "file": "assets/ReturnPolitics-Djri9j8P.js",
+    "file": "assets/ReturnPolitics-cRHyaJR9.js",
     "name": "ReturnPolitics",
     "src": "resources/js/ReturnPolitics.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "_HtmlContent-DJrDQtkv.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2742,14 +2742,14 @@
     ]
   },
   "resources/js/Reutilizables/Businesses/BusinessCard.jsx": {
-    "file": "assets/BusinessCard-B9iAxr5f.js",
+    "file": "assets/BusinessCard-RCZrsShn.js",
     "name": "BusinessCard",
     "src": "resources/js/Reutilizables/Businesses/BusinessCard.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
     ]
   },
@@ -2785,24 +2785,24 @@
     ]
   },
   "resources/js/Services.jsx": {
-    "file": "assets/Services-DITMKRBg.js",
+    "file": "assets/Services-G1RfOAGy.js",
     "name": "Services",
     "src": "resources/js/Services.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "_HtmlContent-DJrDQtkv.js",
       "_proxy-CpucQrne.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2817,23 +2817,23 @@
     ]
   },
   "resources/js/ShippingPolitics.jsx": {
-    "file": "assets/ShippingPolitics-D4tgrnic.js",
+    "file": "assets/ShippingPolitics-B_AlX46q.js",
     "name": "ShippingPolitics",
     "src": "resources/js/ShippingPolitics.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "_HtmlContent-DJrDQtkv.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2849,7 +2849,7 @@
     ]
   },
   "resources/js/Supplies.jsx": {
-    "file": "assets/Supplies-PVayZhOu.js",
+    "file": "assets/Supplies-CA_-CmS-.js",
     "name": "Supplies",
     "src": "resources/js/Supplies.jsx",
     "isEntry": true,
@@ -2857,11 +2857,11 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_Base-sHhZxJzj.js",
       "_SupplieCard-C3RhEXbW.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js"
     ],
@@ -2871,23 +2871,23 @@
     ]
   },
   "resources/js/Terms.jsx": {
-    "file": "assets/Terms-ChByJ5l7.js",
+    "file": "assets/Terms-C-A99fLu.js",
     "name": "Terms",
     "src": "resources/js/Terms.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
       "resources/js/Admin/ItemVariants.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "_HtmlContent-DJrDQtkv.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -2903,7 +2903,7 @@
     ]
   },
   "resources/js/Test.jsx": {
-    "file": "assets/Test-DDBALib4.js",
+    "file": "assets/Test-CJkFAiw-.js",
     "name": "Test",
     "src": "resources/js/Test.jsx",
     "isEntry": true,
@@ -2912,11 +2912,11 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_main-CfHcH2Mm.js",
       "_ProgressBar-3eEUAXIl.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
     ],
     "dynamicImports": [
@@ -2934,7 +2934,7 @@
     ]
   },
   "resources/js/TestResult.jsx": {
-    "file": "assets/TestResult-DcrtXL5g.js",
+    "file": "assets/TestResult-DyQ2nKXK.js",
     "name": "TestResult",
     "src": "resources/js/TestResult.jsx",
     "isEntry": true,
@@ -2943,12 +2943,12 @@
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "_SupplieCard-C3RhEXbW.js",
       "_ProgressBar-3eEUAXIl.js",
       "_main-CfHcH2Mm.js",
       "_index-DC1rVYmi.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
     ],
     "css": [
@@ -2957,22 +2957,22 @@
     ]
   },
   "resources/js/Thanks.jsx": {
-    "file": "assets/Thanks-BUjtC1a7.js",
+    "file": "assets/Thanks-MNm-z002.js",
     "name": "Thanks",
     "src": "resources/js/Thanks.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
       "resources/js/components/Tailwind/Header.jsx",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "_createLucideIcon-Cx5eUsrb.js",
       "_shopping-bag-N27XxGvx.js",
       "_arrow-right-DCVYQWPU.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_main-CfHcH2Mm.js",
       "_index-DC1rVYmi.js",
@@ -2990,12 +2990,12 @@
     ]
   },
   "resources/js/Utils/CreateReactScript.jsx": {
-    "file": "assets/CreateReactScript-CNwsvk-b.js",
+    "file": "assets/CreateReactScript-CSM-nMeh.js",
     "name": "CreateReactScript",
     "src": "resources/js/Utils/CreateReactScript.jsx",
     "isEntry": true,
     "imports": [
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "_main-CfHcH2Mm.js",
       "_index-B80Lgev0.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
@@ -3060,17 +3060,17 @@
     ]
   },
   "resources/js/Videoporteros.jsx": {
-    "file": "assets/Videoporteros-C_MNNQ3T.js",
+    "file": "assets/Videoporteros-vsBYpCuG.js",
     "name": "Videoporteros",
     "src": "resources/js/Videoporteros.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_CreateReactScript-Kd7oNCb8.js",
+      "_CreateReactScript-DglRU3Ia.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_Base-sHhZxJzj.js",
-      "_Footer-Ca2usNi7.js",
+      "_Footer-BZU-GNvj.js",
       "resources/js/components/Tailwind/Header.jsx",
       "_main-CfHcH2Mm.js",
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx",
@@ -3078,7 +3078,7 @@
       "_Products-DkFg0AM4.js",
       "_ServiceTecnical-CmFWd_vz.js",
       "_Marcas-CKcGizh9.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js",
       "_index-DC1rVYmi.js",
       "_Logout-CfWMDtAA.js",
@@ -3142,7 +3142,7 @@
     "src": "resources/js/components/About/images/history.png"
   },
   "resources/js/components/Adminto/Base.jsx": {
-    "file": "assets/Base-mxc3L8L8.js",
+    "file": "assets/Base-CXLJzYsb.js",
     "name": "Base",
     "src": "resources/js/components/Adminto/Base.jsx",
     "isEntry": true,
@@ -3150,7 +3150,7 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "_main-CfHcH2Mm.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "resources/js/components/modals/WhatsAppModal.jsx",
       "resources/js/Admin/ItemVariants.jsx",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
@@ -3209,7 +3209,7 @@
     ]
   },
   "resources/js/components/Adminto/Menu.jsx": {
-    "file": "assets/Menu-BNFlQjbh.js",
+    "file": "assets/Menu-Dfhz3w3M.js",
     "name": "Menu",
     "src": "resources/js/components/Adminto/Menu.jsx",
     "isEntry": true,
@@ -3217,7 +3217,7 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "_main-CfHcH2Mm.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
     ],
     "css": [
@@ -3786,14 +3786,14 @@
     "src": "resources/js/components/Home/images/vegan.svg"
   },
   "resources/js/components/MenuItem.jsx": {
-    "file": "assets/MenuItem-B9iAxr5f.js",
+    "file": "assets/MenuItem-RCZrsShn.js",
     "name": "MenuItem",
     "src": "resources/js/components/MenuItem.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
-      "_index.esm-B5Y9FD8b.js",
+      "_index.esm-CMbNfPOf.js",
       "____vite-browser-external_commonjs-proxy-C9-083JZ.js"
     ]
   },

@@ -191,18 +191,25 @@ const Header = ({
         fetchSocials();
     }, []); // Asegúrate de que este array de dependencias está vacío si solo se ejecuta una vez
 
+    const isVisible = (s) => Boolean(s && (s.visible === 1 || s.visible === true || s.visible === '1' || s.visible === undefined) && s.status !== 0 && s.status !== false && s.status !== '0');
+
     const TikTok = socials.find(
-        (social) => social.description?.toLowerCase() === "tiktok" || social.icon?.includes("tiktok")
+        (s) => (s.description?.toLowerCase() === "tiktok" || s.icon?.includes("tiktok")) && isVisible(s)
     );
     const WhatsApp = socials.find(
-        (social) => social.description === "WhatsApp"
+        (s) => (s.description?.toLowerCase() === "whatsapp" || s.icon?.includes("whatsapp")) && isVisible(s)
     );
     const Instagram = socials.find(
-        (social) => social.description === "Instagram"
+        (s) => (s.description?.toLowerCase() === "instagram" || s.icon?.includes("instagram")) && isVisible(s)
     );
     const Facebook = socials.find(
-        (social) => social.description === "Facebook"
+        (s) => (s.description?.toLowerCase() === "facebook" || s.icon?.includes("facebook")) && isVisible(s)
     );
+    const YouTube = socials.find(
+        (s) => (s.description?.toLowerCase() === "youtube" || s.icon?.includes("youtube")) && isVisible(s)
+    );
+
+    const hasAnySocial = Boolean(Instagram || Facebook || WhatsApp || TikTok || YouTube);
 
     const subMenuProductos = [
         { name: "Sistemas de Intercomunicadores", link: "/intercomunicadores" },
@@ -233,28 +240,35 @@ const Header = ({
                     <div
                         className={`px-[5%] w-screen py-5 lg:py-0 flex justify-between items-center text-[#5e5e60]`}
                     >
-                        <div className="hidden md:flex lg:hidden flex-row space-x-3 text-xl items-center mr-4">
-                            {Instagram && (
-                                <a href={Instagram.link} aria-label="Instagram" target="_blank">
-                                    <img src="/assets/img/footer/instagram_n.png" alt="Instagram" className="w-6" />
-                                </a>
-                            )}
-                            {Facebook && (
-                                <a href={Facebook.link} aria-label="Facebook" target="_blank">
-                                    <img src="/assets/img/footer/facebook_n.png" alt="Facebook" className="w-6" />
-                                </a>
-                            )}
-                            {WhatsApp && (
-                                <a href={WhatsApp.link} aria-label="WhatsApp" target="_blank">
-                                    <img src="/assets/img/footer/whatsapp_n.png" alt="WhatsApp" className="w-6" />
-                                </a>
-                            )}
-                            {TikTok && (
-                                <a href={TikTok.link} target="_blank" aria-label="TikTok">
-                                    <img src="/assets/img/footer/tiktok_n.png" alt="TikTok" className="w-6" />
-                                </a>
-                            )}
-                        </div>
+                        {hasAnySocial && (
+                            <div className="hidden md:flex lg:hidden flex-row gap-3 text-xl items-center mr-4">
+                                {Instagram && (
+                                    <a href={Instagram.link} aria-label="Instagram" target="_blank">
+                                        <img src="/assets/img/footer/instagram_n.png" alt="Instagram" className="w-6" />
+                                    </a>
+                                )}
+                                {Facebook && (
+                                    <a href={Facebook.link} aria-label="Facebook" target="_blank">
+                                        <img src="/assets/img/footer/facebook_n.png" alt="Facebook" className="w-6" />
+                                    </a>
+                                )}
+                                {WhatsApp && (
+                                    <a href={WhatsApp.link} aria-label="WhatsApp" target="_blank">
+                                        <img src="/assets/img/footer/whatsapp_n.png" alt="WhatsApp" className="w-6" />
+                                    </a>
+                                )}
+                                {TikTok && (
+                                    <a href={TikTok.link} target="_blank" aria-label="TikTok">
+                                        <img src="/assets/img/footer/tiktok_n.png" alt="TikTok" className="w-6" />
+                                    </a>
+                                )}
+                                {YouTube && (
+                                    <a href={YouTube.link} target="_blank" aria-label="YouTube">
+                                        <img src="/assets/img/footer/youtube_n.svg" alt="YouTube" className="w-6" />
+                                    </a>
+                                )}
+                            </div>
+                        )}
 
                         <div className="flex flex-row gap-6 justify-between items-center w-full lg:hidden">
                             
@@ -278,7 +292,7 @@ const Header = ({
                                 />
                             </a>
 
-                            <div className="flex flex-row space-x-4 text-2xl items-end justify-end">
+                            <div className="flex flex-row gap-4 text-2xl items-center justify-end">
                                 {/* {Instagram && (
                                     <a
                                         href={Instagram.link}
@@ -376,7 +390,7 @@ const Header = ({
                                 <a href="/contacto">Contacto</a>
                             </nav>
                             
-                            <div className="flex flex-row space-x-4 4xl:space-x-6 text-2xl 4xl:text-4xl items-end justify-end xl:w-3/12">
+                            <div className="flex flex-row gap-4 4xl:gap-6 text-2xl 4xl:text-4xl items-end justify-end xl:w-3/12">
                                 
                                 {Instagram && (
                                     <a
@@ -386,7 +400,7 @@ const Header = ({
                                     >
                                         <img
                                             src="/assets/img/footer/instagram_n.png"
-                                            alt="facebook"
+                                            alt="Instagram"
                                             className="w-8 4xl:w-10"
                                         />
                                     </a>
@@ -428,6 +442,18 @@ const Header = ({
                                         <img
                                             src="/assets/img/footer/tiktok_n.png"
                                             alt="TikTok"
+                                            className="w-8 4xl:w-10"
+                                        />
+                                    </a>
+                                )}
+
+                                {YouTube && (
+                                    <a href={YouTube.link}
+                                       target="_blank"
+                                       aria-label="YouTube">
+                                        <img
+                                            src="/assets/img/footer/youtube_n.svg"
+                                            alt="YouTube"
                                             className="w-8 4xl:w-10"
                                         />
                                     </a>

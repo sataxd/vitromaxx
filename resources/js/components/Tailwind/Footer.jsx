@@ -29,19 +29,26 @@ const Footer = () => {
         fetchSocials();
     }, []); 
 
+    const isVisible = (s) => Boolean(s && (s.visible === 1 || s.visible === true || s.visible === '1' || s.visible === undefined) && s.status !== 0 && s.status !== false && s.status !== '0');
+
     const TikTok = socials.find(
-        (social) => social.description?.toLowerCase() === "tiktok" || social.icon?.includes("tiktok")
+        (s) => (s.description?.toLowerCase() === "tiktok" || s.icon?.includes("tiktok")) && isVisible(s)
     );
     
     const WhatsApp = socials.find(
-        (social) => social.description === "WhatsApp"
+        (s) => (s.description?.toLowerCase() === "whatsapp" || s.icon?.includes("whatsapp")) && isVisible(s)
     );
     const Instagram = socials.find(
-        (social) => social.description === "Instagram"
+        (s) => (s.description?.toLowerCase() === "instagram" || s.icon?.includes("instagram")) && isVisible(s)
     );
     const Facebook = socials.find(
-        (social) => social.description === "Facebook"
+        (s) => (s.description?.toLowerCase() === "facebook" || s.icon?.includes("facebook")) && isVisible(s)
     );
+    const YouTube = socials.find(
+        (s) => (s.description?.toLowerCase() === "youtube" || s.icon?.includes("youtube")) && isVisible(s)
+    );
+
+    const hasAnySocial = Boolean(Instagram || Facebook || WhatsApp || TikTok || YouTube);
 
     const [aboutuses, setAboutuses] = useState(null);
 
@@ -207,65 +214,83 @@ const Footer = () => {
                         
                         <div className="w-full sm:col-span-2 md:col-span-6 lg:col-span-2 flex flex-col">
 
-                            <p className="font-dmsans text-white text-opacity-70 text-sm 2xl:text-base 4xl:text-lg">Redes Sociales</p>
+                            {hasAnySocial && (
+                                <>
+                                    <p className="font-dmsans text-white text-opacity-70 text-sm 2xl:text-base 4xl:text-lg">Redes Sociales</p>
 
-                            <div className="flex flex-row justify-end gap-4 max-w-44 mt-3 sm:mt-5 flex-wrap">
-                                {Instagram && (
-                                    <a
-                                        href={Instagram.link}
-                                        aria-label="Instagram"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="/assets/img/footer/instagram.png"
-                                            alt="Instagram"
-                                            className="w-8 4xl:w-10"
-                                        />
-                                    </a>
-                                )}
+                                    <div className="flex flex-row justify-start gap-4 max-w-44 mt-3 sm:mt-5 flex-wrap">
+                                        {Instagram && (
+                                            <a
+                                                href={Instagram.link}
+                                                aria-label="Instagram"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="/assets/img/footer/instagram.png"
+                                                    alt="Instagram"
+                                                    className="w-8 4xl:w-10"
+                                                />
+                                            </a>
+                                        )}
 
-                                {Facebook && (
-                                    <a
-                                        href={Facebook.link}
-                                        aria-label="Facebook"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="/assets/img/footer/facebook.png"
-                                            alt="Facebook"
-                                            className="w-8 4xl:w-10"
-                                        />
-                                    </a>
-                                )}
+                                        {Facebook && (
+                                            <a
+                                                href={Facebook.link}
+                                                aria-label="Facebook"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="/assets/img/footer/facebook.png"
+                                                    alt="Facebook"
+                                                    className="w-8 4xl:w-10"
+                                                />
+                                            </a>
+                                        )}
 
-                                {WhatsApp && (
-                                    <a
-                                        href={WhatsApp.link}
-                                        aria-label="WhatsApp"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="/assets/img/footer/whatsapp.png"
-                                            alt="WhatsApp"
-                                            className="w-8 4xl:w-10"
-                                        />
-                                    </a>
-                                )}
+                                        {WhatsApp && (
+                                            <a
+                                                href={WhatsApp.link}
+                                                aria-label="WhatsApp"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="/assets/img/footer/whatsapp.png"
+                                                    alt="WhatsApp"
+                                                    className="w-8 4xl:w-10"
+                                                />
+                                            </a>
+                                        )}
 
-                                {TikTok && (
-                                    <a
-                                        href={TikTok.link}
-                                        aria-label="TikTok"
-                                        target="_blank"
-                                    >
-                                        <img
-                                            src="/assets/img/footer/tik_tok.png"
-                                            alt="TikTok"
-                                            className="w-8 4xl:w-10 "
-                                        />
-                                    </a>
-                                )}
-                            </div>
+                                        {TikTok && (
+                                            <a
+                                                href={TikTok.link}
+                                                aria-label="TikTok"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="/assets/img/footer/tik_tok.png"
+                                                    alt="TikTok"
+                                                    className="w-8 4xl:w-10 "
+                                                />
+                                            </a>
+                                        )}
+
+                                        {YouTube && (
+                                            <a
+                                                href={YouTube.link}
+                                                aria-label="YouTube"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="/assets/img/footer/youtube.svg"
+                                                    alt="YouTube"
+                                                    className="w-8 4xl:w-10"
+                                                />
+                                            </a>
+                                        )}
+                                    </div>
+                                </>
+                            )}
 
                             <div className="flex flex-col gap-1 mt-3 sm:mt-5">
                                     <p className="font-dmsans text-white text-opacity-70 text-sm 2xl:text-base 4xl:text-lg">Email</p>

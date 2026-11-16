@@ -38,6 +38,12 @@ class SocialSeeder extends Seeder
                 'icon' => 'fab fa-tiktok',
                 'link' => 'https://www.tiktok.com/@vitromaxx'
             ],
+            [
+                'name' => 'Vitromaxx',
+                'description' => 'YouTube',
+                'icon' => 'fab fa-youtube',
+                'link' => 'https://www.youtube.com/@vitromaxx'
+            ],
         ];
 
         foreach ($socials as $social) {
