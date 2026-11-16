@@ -261,7 +261,7 @@ const Footer = () => {
                                         <img
                                             src="/assets/img/footer/tik_tok.png"
                                             alt="TikTok"
-                                            className="w-8 4xl:w-10"
+                                            className="w-8 4xl:w-10 "
                                         />
                                     </a>
                                 )}
