@@ -160,10 +160,6 @@
       "resources/js/Reutilizables/Businesses/BusinessIWorkCard.jsx"
     ]
   },
-  "_JSEncrypt-BceYZi2u.js": {
-    "file": "assets/JSEncrypt-BceYZi2u.js",
-    "name": "JSEncrypt"
-  },
   "_Logout-CfWMDtAA.js": {
     "file": "assets/Logout-CfWMDtAA.js",
     "name": "Logout",
@@ -361,6 +357,10 @@
     "imports": [
       "_createLucideIcon-Cx5eUsrb.js"
     ]
+  },
+  "_auth-helper-BceYZi2u.js": {
+    "file": "assets/auth-helper-BceYZi2u.js",
+    "name": "JSEncrypt"
   },
   "_calendar-Djo6y1ia.js": {
     "file": "assets/calendar-Djo6y1ia.js",
@@ -595,7 +595,7 @@
     ]
   },
   "resources/js/Admin/Account.jsx": {
-    "file": "assets/Account-BN3I01KH.js",
+    "file": "assets/Account-D9JX1kBP.js",
     "name": "Account",
     "src": "resources/js/Admin/Account.jsx",
     "isEntry": true,
@@ -603,7 +603,7 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_JSEncrypt-BceYZi2u.js",
+      "_auth-helper-BceYZi2u.js",
       "_Base-CPnjQCFM.js",
       "_CreateReactScript-jg598gDa.js",
       "_main-CfHcH2Mm.js",
@@ -2468,7 +2468,7 @@
     ]
   },
   "resources/js/Login.jsx": {
-    "file": "assets/Login-DBL0CP2j.js",
+    "file": "assets/Login-B8ZhB718.js",
     "name": "Login",
     "src": "resources/js/Login.jsx",
     "isEntry": true,
@@ -2476,7 +2476,7 @@
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
-      "_JSEncrypt-BceYZi2u.js",
+      "_auth-helper-BceYZi2u.js",
       "_CreateReactScript-jg598gDa.js",
       "_AuthRest-46vJ0sKW.js",
       "resources/js/Admin/ItemVariants.jsx",
@@ -2672,14 +2672,14 @@
     ]
   },
   "resources/js/Register.jsx": {
-    "file": "assets/Register-CrsZ8oz_.js",
+    "file": "assets/Register-v990CHTg.js",
     "name": "Register",
     "src": "resources/js/Register.jsx",
     "isEntry": true,
     "imports": [
       "resources/js/Reutilizables/Pagination/FilterPagination.jsx",
       "_index.esm-BtWik4qv.js",
-      "_JSEncrypt-BceYZi2u.js",
+      "_auth-helper-BceYZi2u.js",
       "_index-B80Lgev0.js",
       "resources/js/Utils/ReactAppend.jsx",
       "_index-CqrOtH36.js",
