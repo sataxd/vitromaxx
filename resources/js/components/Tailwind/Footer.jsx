@@ -30,7 +30,7 @@ const Footer = () => {
     }, []); 
 
     const TikTok = socials.find(
-        (social) => social.description === "TikTok"
+        (social) => social.description?.toLowerCase() === "tiktok" || social.icon?.includes("tiktok")
     );
     
     const WhatsApp = socials.find(

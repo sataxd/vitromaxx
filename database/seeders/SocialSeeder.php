@@ -32,6 +32,12 @@ class SocialSeeder extends Seeder
                 'icon' => 'fab fa-whatsapp',
                 'link' => 'https://api.whatsapp.com/send?phone=+51991542541&text=' . urlencode('¡Hola! Quisiera que me informe sobre los producto de Vitromaxx.')
             ],
+            [
+                'name' => 'Vitromaxx',
+                'description' => 'TikTok',
+                'icon' => 'fab fa-tiktok',
+                'link' => 'https://www.tiktok.com/@vitromaxx'
+            ],
         ];
 
         foreach ($socials as $social) {

@@ -99,15 +99,15 @@ const Socials = ({ icons }) => {
             onClick: () => $(gridRef.current).dxDataGrid('instance').refresh()
           }
         });
-        // container.unshift({
-        //   widget: 'dxButton', location: 'after',
-        //   options: {
-        //     icon: 'plus',
-        //     text: 'Nuevo registro',
-        //     hint: 'Nuevo registro',
-        //     onClick: () => onModalOpen()
-        //   }
-        // });
+        container.unshift({
+          widget: 'dxButton', location: 'after',
+          options: {
+            icon: 'plus',
+            text: 'Nuevo registro',
+            hint: 'Nuevo registro',
+            onClick: () => onModalOpen()
+          }
+        });
       }}
       columns={[
         {
@@ -123,8 +123,9 @@ const Socials = ({ icons }) => {
           dataField: 'description',
           caption: 'Red Social',
           cellTemplate: (container, { data }) => {
+            const iconClass = data.icon?.startsWith('fa') ? data.icon : `fab ${data.icon || 'fa-globe'}`;
             container.html(renderToString(<>
-            <i className={`fab ${data.icon} me-1`}></i>
+            <i className={`${iconClass} me-1`}></i>
             {data.description}
             </>))
           }

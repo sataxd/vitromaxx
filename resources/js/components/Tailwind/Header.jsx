@@ -191,7 +191,9 @@ const Header = ({
         fetchSocials();
     }, []); // Asegúrate de que este array de dependencias está vacío si solo se ejecuta una vez
 
-    const TikTok = socials.find((social) => social.description === "TikTok");
+    const TikTok = socials.find(
+        (social) => social.description?.toLowerCase() === "tiktok" || social.icon?.includes("tiktok")
+    );
     const WhatsApp = socials.find(
         (social) => social.description === "WhatsApp"
     );
