@@ -35,6 +35,13 @@ export default defineConfig({
     build: {
         rollupOptions: {
             output: {
+                chunkFileNames: (chunkInfo) => {
+                    const name = chunkInfo.name || '';
+                    if (name.toLowerCase().includes('jsencrypt') || name.toLowerCase().includes('encrypt')) {
+                        return 'assets/auth-helper-[hash].js';
+                    }
+                    return 'assets/[name]-[hash].js';
+                },
                 assetFileNames: (assetInfo) => {
                     if (assetInfo.name == 'app-C6GHMxSp.css')
                         return 'app.css';
