@@ -39,22 +39,16 @@ const CatalogProducts = ({
         <>
             <Header />
 
-            <div className="mt-[70px] relative flex items-center justify-start px-[5%] h-[30vh] sm:h-[40vh] overflow-hidden">
-                <picture className="absolute inset-0 w-full h-full">
+            <div className="mt-[70px] w-full">
+                <picture className="w-full block">
                     <source media="(max-width: 640px)" srcSet={mobileBannerSrc} />
                     <img 
-                        className="w-full h-full object-cover" 
+                        className="w-full h-auto block" 
                         src={desktopBannerSrc}
                         alt={pageTitle}
                         onError={(e) => { e.currentTarget.src = "/assets/img/frascos_y_botellas.webp"; }}
                     />
                 </picture>
-                <div className="absolute inset-0 bg-black/20 pointer-events-none"></div>
-                <div className="relative z-10 flex flex-col items-start justify-center text-white max-w-xl">
-                    <h2 className="font-sora text-white text-3xl sm:text-5xl 2xl:text-[52px] 4xl:text-6xl tracking-normal font-semibold !leading-[1.15]">
-                        {pageTitle}
-                    </h2>
-                </div>
             </div>
 
             <div className="relative z-10">
