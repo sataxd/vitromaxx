@@ -264,7 +264,7 @@ const Header = ({
                                 )}
                                 {YouTube && (
                                     <a href={YouTube.link} target="_blank" aria-label="YouTube">
-                                        <img src="/assets/img/footer/youtube_n.svg" alt="YouTube" className="w-6" />
+                                        <img src="/assets/img/footer/juego.png" alt="YouTube" className="w-6" />
                                     </a>
                                 )}
                             </div>
@@ -452,7 +452,7 @@ const Header = ({
                                        target="_blank"
                                        aria-label="YouTube">
                                         <img
-                                            src="/assets/img/footer/youtube_n.svg"
+                                            src="/assets/img/footer/juego.png"
                                             alt="YouTube"
                                             className="w-8 4xl:w-10"
                                         />
